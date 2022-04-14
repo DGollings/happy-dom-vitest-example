@@ -7,5 +7,5 @@ describe("example", () => {
         console.log(App)
         const {getByRole} = render(App)
         getByRole("img", {name: "Vue logo"})
-    }
+    })
 })
